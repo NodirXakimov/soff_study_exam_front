@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@100;200;300;400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contianer {
+    width: 1920px;
+    height: 1045px;
+    background-image: url('../images/main_background.png');
+    /* background: rgba(51, 51, 51, 0.75); */
+    opacity: 0.75;
+    display: flex;
+    font-family: 'Open Sans';
+    color: white;
+}
+/* HEADER STYLES START */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 405px 0 255px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+}
+header .header_left ul{
+    list-style-type: none;
+    display: flex;
+}
+header .header_left ul li {
+    margin-right: 49px;
+    font-size: 18px;
+    line-height: 24.51px;
+    font-weight: 700px;
+    letter-spacing: 0.1em;
+}
+/* HEADER STYLES END */
+
+/* NAV STYLES START */
+.contianer nav.left {
+    width: 150px;
+}
+/* NAV STYLES END */
+
+/* MAIN RIGHT STYLES START */
+.contianer section.right {
+    width: 1770px;
+}
+section.main {
+    display: flex;
+    margin: 200px 405px 208px 255px;
+}
+section.main .left {
+    width: 50%;
+}
+section.main .main_left h1 {
+    font-family: 'Open Sans Condensed';
+    margin-top: 106px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87.16px;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    
+}
+section.main .main_left h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+}
+section.main .main_left p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 80px;
+}
+section.main .main_left .buttons_box {
+    margin-top: 45px;
+    display: flex;
+}
+section.main .main_left .buttons_box button{
+    font-family: 'Open Sans Condensed';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase; 
+    height: 50px;
+}
+section.main .main_left .buttons_box button.register{
+    padding-left: 49.2px;   
+    padding-right: 63.85px;
+    width: 291px;
+    background-color: #D1A954;
+}
+section.main .main_left .buttons_box button.contact {
+    width: 185px;
+    margin-left: 64px;
+    background-color: #333333;
+}
+section.main .right {
+    width: 50%;
+
+}
+/* MAIN RIGHT STYLES END */
+
